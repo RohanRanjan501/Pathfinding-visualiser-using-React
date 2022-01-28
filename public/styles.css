@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---------------------------------------------------------For Spot---------------------------------------------------------*/
+
+.spot {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid grey;
+    display: inline-block;
+}
+
+.spot-finish {
+    background-color: red;
+}
+
+.spot-start {
+    background-color: green;
+}
+
+.spot-wall {
+    background-color: rgb(12, 53, 71);
+}
+
+.spot-visited {
+    background-color: blue;
+}
+
+.spot-path {
+    background-color: yellow;
+}
+
+/*---------------------------------------------------------For Grid---------------------------------------------------------*/
+
+.grid {
+    position: relative;
+    left: 30px;
+    top: 1px;
+}
+
+.grid-row {
+    height: 25px;
+}
+
+/*---------------------------------------------------For Navbar--------------------------------------------------------*/
+
+.navbar{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(39, 37, 49);
+    color: aliceblue;
+}
+
+.navbar ul{
+    list-style-type: none;
+    font-size: 23px;
+    padding: 8px 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* ------------------------------------------------------Two-columns-------------------------------------------------------- */
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 655px; 
+  }
+  
+  .left {
+    width: 15%;
+    background-color: red;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .right {
+    width: 80%;
+    
+  }
+
+/* ------------------------------------------------------Select------------------------------------------------------------- */
+
+.select{
+    width: 90%;
+    /* text-align: center; */
+    height: 35px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.button{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif, Arial, Helvetica ;
+}
